@@ -1,0 +1,20 @@
+{
+  "name": "tts-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server that generates the game's voice lines with Amazon Polly stock voices.",
+  "scripts": {
+    "start": "tsx server.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-polly": "^3.0.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0",
+    "@types/node": "^20.0.0"
+  }
+}

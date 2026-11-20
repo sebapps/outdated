@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "playtest": {
+      "command": "npx",
+      "args": ["tsx", "tools/playtest-mcp/server.ts"],
+      "env": {},
+      "disabled": false,
+      "autoApprove": ["new_game", "send_command", "get_state", "list_vocabulary"]
+    },
+    "voice-lines": {
+      "command": "npx",
+      "args": ["tsx", "tools/tts-mcp/server.ts"],
+      "env": {
+        "AWS_REGION": "us-east-1",
+        "TTS_DRY_RUN": "0"
+      },
+      "disabled": false,
+      "autoApprove": ["list_voices"]
+    }
+  }
+}

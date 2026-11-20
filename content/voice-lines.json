@@ -1,0 +1,82 @@
+{
+  "_note": "DRAFT lines. Voice names are Amazon Polly stock voices; confirm they exist with the list_voices tool before generating. The 'record_reversible' effect means: store clear audio, and let the Web Audio layer play it REVERSED for the forward-play gibberish step and normally after the player reverses the record. The final adult-Dad line is a placeholder: write that one yourself, or record a real voice.",
+  "lines": [
+    {
+      "id": "basement_tape_dad",
+      "speaker": "Dad (adult)",
+      "voice": "Matthew",
+      "engine": "neural",
+      "effect": "tape",
+      "text": "Okay, is this thing recording? Good. Here's a secret from the very first video games. Someone hid a room in one, just to sign their name. Nobody told them to. So when you're looking for something, don't look where everybody looks. Look under the things you'd never think to lift.",
+      "caption": "[Dad's voice on the cassette]",
+      "notes": "Story basis: Atari's Adventure Easter egg (1979). Verify facts before the write-up."
+    },
+    {
+      "id": "hallway_message_young_dad",
+      "speaker": "Young Dad (age 10)",
+      "voice": "Justin",
+      "engine": "neural",
+      "effect": "answering_machine",
+      "text": "Hi, Mom, it's me. I'm at Kevin's. We're gonna be here, like, forever. Also, the thing is in my lucky jacket. No, I'm not telling you which pocket, because you snoop. Okay. Bye. Don't snoop.",
+      "caption": "[Answering machine: a boy's voice]",
+      "notes": "Silence beat follows. Kevin is an invented friend."
+    },
+    {
+      "id": "hallway_greeting_grandma",
+      "speaker": "Grandma",
+      "voice": "Joanna",
+      "engine": "neural",
+      "effect": "answering_machine",
+      "text": "Hello, you've reached our house. We can't come to the phone right now, so please leave your name and number after the beep.",
+      "caption": "[Answering machine: an old outgoing greeting]",
+      "notes": "Wrong-number gag response. Not a clue."
+    },
+    {
+      "id": "study_record_clear",
+      "speaker": "Young Dad (age 9)",
+      "voice": "Justin",
+      "engine": "neural",
+      "effect": "record_reversible",
+      "text": "Testing, testing. This is me, on a record. I hid the thing where Dad would never dare to look. If you're hearing this backwards, you're either very clever or very bored.",
+      "caption": "[A boy's voice, playing backwards]",
+      "notes": "Play reversed first (gibberish), then normally once the player reverses the record. Silence beat after."
+    },
+    {
+      "id": "video_grandpa_narration",
+      "speaker": "Grandpa",
+      "voice": "Joey",
+      "engine": "neural",
+      "effect": "camcorder",
+      "text": "Okay, wave at the camera. Wave! Now open it. Slowly! It's a Nintendo!",
+      "caption": "[Home video: a man's voice, off camera]"
+    },
+    {
+      "id": "video_young_dad_reaction",
+      "speaker": "Young Dad (age 10)",
+      "voice": "Justin",
+      "engine": "neural",
+      "effect": "camcorder",
+      "text": "No way. No way! Are you serious?",
+      "caption": "[Home video: a boy shouting]"
+    },
+    {
+      "id": "video_young_dad_whisper",
+      "speaker": "Young Dad (age 10)",
+      "voice": "Justin",
+      "engine": "neural",
+      "effect": "camcorder",
+      "text": "Saturday morning's the best time to find it.",
+      "caption": "[Home video: a boy whispering]"
+    },
+    {
+      "id": "video_adult_dad_final",
+      "speaker": "Dad (adult)",
+      "voice": "Matthew",
+      "engine": "neural",
+      "effect": "camcorder",
+      "text": "Hey, bud. The gadgets were never really the point.",
+      "caption": "[Dad's voice, over the static]",
+      "notes": "PLACEHOLDER. This is the emotional core of the game. Write it yourself, or record a real voice. Final silence beat follows."
+    }
+  ]
+}

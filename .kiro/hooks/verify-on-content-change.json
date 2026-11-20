@@ -1,0 +1,17 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Verify game still winnable after content change",
+      "description": "Runs the walkthrough and soft-lock tests whenever puzzle content changes. Enabled now that the walkthrough, soft-lock and property tests exist.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|[\\/])(content[\\/][^\\/]+\\.json|docs[\\/]puzzle-bible\\.md)$",
+      "action": {
+        "type": "command",
+        "command": "npx vitest run tests/walkthrough.test.ts tests/softlock.test.ts tests/properties.test.ts"
+      },
+      "timeout": 600,
+      "enabled": true
+    }
+  ]
+}

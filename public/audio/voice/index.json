@@ -1,0 +1,66 @@
+{
+  "basement_tape_dad": {
+    "file": "basement_tape_dad.mp3",
+    "caption": "[Dad's voice on the cassette]",
+    "effect": "tape",
+    "speaker": "Dad (adult)",
+    "textHash": "e8c2a837f8f2",
+    "voice": "Matthew"
+  },
+  "hallway_message_young_dad": {
+    "file": "hallway_message_young_dad.mp3",
+    "caption": "[Answering machine: a boy's voice]",
+    "effect": "answering_machine",
+    "speaker": "Young Dad (age 10)",
+    "textHash": "672a6fe0fa85",
+    "voice": "Justin"
+  },
+  "hallway_greeting_grandma": {
+    "file": "hallway_greeting_grandma.mp3",
+    "caption": "[Answering machine: an old outgoing greeting]",
+    "effect": "answering_machine",
+    "speaker": "Grandma",
+    "textHash": "8d52e2985bb3",
+    "voice": "Joanna"
+  },
+  "study_record_clear": {
+    "file": "study_record_clear.mp3",
+    "caption": "[A boy's voice, playing backwards]",
+    "effect": "record_reversible",
+    "speaker": "Young Dad (age 9)",
+    "textHash": "b6659b6dae2f",
+    "voice": "Justin"
+  },
+  "video_grandpa_narration": {
+    "file": "video_grandpa_narration.mp3",
+    "caption": "[Home video: a man's voice, off camera]",
+    "effect": "camcorder",
+    "speaker": "Grandpa",
+    "textHash": "89d55f12b638",
+    "voice": "Joey"
+  },
+  "video_young_dad_reaction": {
+    "file": "video_young_dad_reaction.mp3",
+    "caption": "[Home video: a boy shouting]",
+    "effect": "camcorder",
+    "speaker": "Young Dad (age 10)",
+    "textHash": "1e521ea69808",
+    "voice": "Justin"
+  },
+  "video_young_dad_whisper": {
+    "file": "video_young_dad_whisper.mp3",
+    "caption": "[Home video: a boy whispering]",
+    "effect": "camcorder",
+    "speaker": "Young Dad (age 10)",
+    "textHash": "3eaa2ab30344",
+    "voice": "Justin"
+  },
+  "video_adult_dad_final": {
+    "file": "video_adult_dad_final.mp3",
+    "caption": "[Dad's voice, over the static]",
+    "effect": "camcorder",
+    "speaker": "Dad (adult)",
+    "textHash": "99213bfa8dbc",
+    "voice": "Matthew"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Write bug condition exploration test": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966997570
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794967000916
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794967967102
+      }
+    ],
+    "2. Write preservation property tests (BEFORE implementing the fix)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966997666
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794967969455
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055168409
+      }
+    ],
+    "3.1 Fix the fake audio context in the buffer-contents test (C1)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966997749
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055174475
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055254011
+      }
+    ],
+    "3.2 Show each sound caption in one pair of brackets (C2)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966997823
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055174589
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055253772
+      }
+    ],
+    "3.3 Add a solved-state hint (C3)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966997959
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055257216
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795057984645
+      }
+    ],
+    "3.4 List the current room's items first in noun-failure suggestions (C4)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998065
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795057985939
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795058040931
+      }
+    ],
+    "3.5 Put found keys in the inventory (C5)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998193
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795058041568
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795059063666
+      }
+    ],
+    "3.6 Parse natural phrasings (C6)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998278
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055258025
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795057984862
+      }
+    ],
+    "3.7 Remove the duplicated video line (C7)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998388
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055258958
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795057985364
+      }
+    ],
+    "3.8 Rewrite the Study forward-play line (C8)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998489
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055174862
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055253457
+      }
+    ],
+    "3.9 Carry state between fuzz commands (C9)": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998624
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055175508
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795055254264
+      }
+    ],
+    "3.10 Verify bug condition exploration test now passes": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998723
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795059063514
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795059090643
+      }
+    ],
+    "3.11 Verify preservation tests still pass": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998817
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795059091280
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795099308322
+      }
+    ],
+    "4. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794966998916
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795099308839
+      },
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795105044328
+      }
+    ],
+    "3. Fix the playtest findings": [
+      {
+        "executionId": "a088f2ae-91aa-4e29-b7f7-8d12913fb884",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1795099309575
+      }
+    ]
+  }
+}

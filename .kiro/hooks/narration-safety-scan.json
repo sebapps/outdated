@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Scan narration for lyrics, real names, and spoilers",
+      "description": "After narration or voice content is saved, asks the agent to check it against the project's hard content rules.",
+      "trigger": "PostFileSave",
+      "matcher": "(^|/)content/(narration|voice-lines)[^/]*\\.json$",
+      "action": {
+        "type": "agent",
+        "prompt": "A narration or voice content file was just saved. Review the lines that changed against these rules and report any violation with the line id and the exact text: (1) No song lyrics, not even a single line, including paraphrases close enough to be recognizable. (2) No real, named people. Products must be described generically. (3) The narrator must never mock Dad. (4) Lines must match their warmth level in narrator-voice.md, and silence-beat lines must be at most one short sincere sentence. (5) Failure and hint lines must not reveal a puzzle solution outright. (6) The line `video_adult_dad_final` must be unchanged unless the developer asked for the change. If everything passes, say so in one sentence. Do not rewrite anything unless asked."
+      }
+    }
+  ]
+}

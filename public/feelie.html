@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Outdated: A Text Adventure - Dad's Notes (feelie)</title>
+  <style>
+    :root { --paper: #fbf6e6; --ink: #1d2a6b; --rule: #c9d7ee; --margin: #e49a9a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #d9d4c4; font-family: "Segoe Print", "Bradley Hand", "Comic Sans MS", cursive; color: var(--ink); }
+    .page {
+      width: 8.5in; min-height: 11in; margin: 0.4in auto; padding: 0.7in 0.8in 0.7in 1.2in; position: relative;
+      background-color: var(--paper);
+      background-image: repeating-linear-gradient(to bottom, transparent 0, transparent 0.34in, var(--rule) 0.34in, var(--rule) calc(0.34in + 1px));
+      box-shadow: 0 2px 12px rgba(0,0,0,.35);
+    }
+    .page::before { content: ""; position: absolute; left: 0.95in; top: 0; bottom: 0; width: 2px; background: var(--margin); }
+    h1 { font-size: 24pt; margin: 0 0 .1in; transform: rotate(-1deg); }
+    .sub { font-size: 12pt; margin: 0 0 .3in; opacity: .85; }
+    h2 { font-size: 14pt; margin: .28in 0 .06in; text-decoration: underline wavy var(--margin); text-underline-offset: 4px; }
+    ul { margin: 0; padding-left: .25in; }
+    li { font-size: 13pt; line-height: 0.34in; }
+    li.struck { text-decoration: line-through; opacity: .7; }
+    p { font-size: 13pt; line-height: 0.34in; margin: 0; }
+    .sig { margin-top: .35in; font-size: 16pt; transform: rotate(-2deg); display: inline-block; }
+    .ps { margin-top: .2in; font-size: 12pt; }
+    .tape { position: absolute; top: .25in; right: 1in; width: 1.3in; height: .32in; background: rgba(240, 220, 130, .75); transform: rotate(4deg); }
+    .noprint { max-width: 8.5in; margin: .2in auto; font-family: system-ui, sans-serif; font-size: 11pt; color: #333; }
+    .noprint button { font: inherit; padding: .35em .9em; cursor: pointer; }
+    @media print {
+      body { background: none; }
+      .noprint { display: none; }
+      .page { margin: 0; box-shadow: none; width: auto; min-height: 0; height: 10in; page-break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      @page { size: letter; margin: .4in; }
+    }
+  </style>
+</head>
+<body>
+  <p class="noprint">This is the printable "feelie" for <em>Outdated: A Text Adventure</em>. It fits on one letter-size page.
+    <button type="button" onclick="window.print()">Print</button></p>
+  <main class="page">
+    <div class="tape" aria-hidden="true"></div>
+    <h1>Stuff I'm Never Throwing Out</h1>
+    <p class="sub">(by Dave. Do NOT touch. Mom, this means you.)</p>
+
+    <h2>Things I figured out the hard way</h2>
+    <ul>
+      <li>A pencil is a tool for fixing tapes. Writing is its side job.</li>
+      <li>If a game won't start, blow on it. Don't ask me why that works.</li>
+      <li>Beepers: somebody wants you to call them back. Call them back.</li>
+      <li>The best hiding spot is under the thing nobody ever lifts.</li>
+      <li class="struck">Rewind before you return it. (Late fees. Never again.)</li>
+      <li>Some songs sound like nonsense until you play them the other way.</li>
+      <li>Saturday morning is the best time to find anything.</li>
+    </ul>
+
+    <h2>How to use the house</h2>
+    <p>Type short. LOOK a lot. EXAMINE everything. Open what opens. If you're stuck, type HINT. There is no shame in a hint. I used the back of the game box.</p>
+
+    <h2>What I couldn't say out loud</h2>
+    <p>You don't have to like any of it. I just wanted you to know where I came from. Come find me anyway.</p>
+
+    <p class="sig">Dad</p>
+    <p class="ps">P.S. Don't lose the pencil.</p>
+  </main>
+</body>
+</html>

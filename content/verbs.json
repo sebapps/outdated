@@ -1,0 +1,32 @@
+{
+  "_note": "Canonical verbs and synonyms. Parser (task 3) consumes this. Synonyms must be unique across verbs.",
+  "verbs": [
+    { "id": "LOOK", "synonyms": ["l", "look around"], "objects": 0 },
+    { "id": "EXAMINE", "synonyms": ["x", "inspect", "check", "read", "look at", "take a look at"], "objects": 1 },
+    { "id": "TAKE", "synonyms": ["get", "grab", "pick up", "pocket"], "objects": 1 },
+    { "id": "DROP", "synonyms": ["put down", "discard"], "objects": 1 },
+    { "id": "INVENTORY", "synonyms": ["i", "inv", "items"], "objects": 0 },
+    { "id": "OPEN", "synonyms": ["unzip", "unseal", "open up"], "objects": 2, "prepositions": ["with", "using"] },
+    { "id": "SEARCH", "synonyms": ["look under", "look behind", "look inside", "look in", "rummage", "lift"], "objects": 1 },
+    { "id": "USE", "synonyms": ["apply"], "objects": 2, "prepositions": ["with", "on", "in", "into", "to"] },
+    { "id": "GO", "synonyms": ["walk", "move", "head", "climb", "enter"], "objects": 1 },
+    { "id": "HELP", "synonyms": ["?", "commands"], "objects": 0 },
+    { "id": "HINT", "synonyms": ["clue", "stuck"], "objects": 0 },
+    { "id": "REWIND", "synonyms": ["fix", "wind"], "objects": 2, "prepositions": ["with", "using"] },
+    { "id": "PLAY", "synonyms": ["press play", "start", "listen to"], "objects": 1 },
+    { "id": "STOP", "synonyms": ["halt", "press stop"], "objects": 1 },
+    { "id": "DIAL", "synonyms": ["call", "phone"], "objects": 1 },
+    { "id": "BLOW", "synonyms": ["blow on", "blow into", "puff"], "objects": 1 },
+    { "id": "INSERT", "synonyms": ["load", "put in", "slot", "put", "place", "slide"], "objects": 2, "prepositions": ["in", "into", "to", "inside"] },
+    { "id": "UNFOLD", "synonyms": ["transform", "extend"], "objects": 1 },
+    { "id": "REVERSE", "synonyms": ["turn counterclockwise", "spin backwards", "rotate backward", "turn backwards"], "objects": 1 },
+    { "id": "PLUG", "synonyms": ["plug in", "connect"], "objects": 1 },
+    { "id": "ADJUST", "synonyms": ["fix tracking", "tracking", "tune"], "objects": 1 },
+    { "id": "SET", "synonyms": ["reset"], "objects": 1 },
+    { "id": "REMOVE", "synonyms": ["take off", "pull off", "take out", "eject"], "objects": 1 },
+    { "id": "UNLOCK", "synonyms": ["unlatch"], "objects": 2, "prepositions": ["with", "using"] },
+    { "id": "PRESS", "synonyms": ["push", "hit", "switch on", "turn on"], "objects": 1 },
+    { "id": "FLIP", "synonyms": ["turn over"], "objects": 1 },
+    { "id": "FIND", "synonyms": ["locate", "look for"], "objects": 1 }
+  ]
+}

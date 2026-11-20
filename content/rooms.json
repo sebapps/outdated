@@ -1,0 +1,117 @@
+{
+  "_note": "Source of truth: docs/puzzle-bible.md. Plant every hiding place in the description. Hidden items (keys, quarter) are not listed here; they start inside a container in items.json.",
+  "rooms": [
+    {
+      "id": "basement",
+      "name": "Basement",
+      "description": "A low, damp basement that smells like 1985. A workbench holds a coffee can of pencils, a cassette with its tape pulled out, and a Walkman. Against the wall, a wood-grain Atari console is hooked to a small TV, with a cartridge box beside it. Nearby sit a Simon game, a Magic 8-Ball, a shoebox of baseball cards, a View-Master, and a jar of mismatched batteries. A staircase leads up to a door.",
+      "puzzle": "basement",
+      "items": ["workbench", "coffeeCan", "pencil", "cassette", "walkman", "batteryJar", "atariConsole", "basementTv", "atariBox", "atariCatalog", "joystick", "simon", "magic8Ball", "baseballCards", "viewMaster"],
+      "exits": [
+        {
+          "direction": "up",
+          "to": "hallway",
+          "requiresKey": "hallwayKey",
+          "lockedText": "The door at the top of the stairs is locked. You will need a key.",
+          "passText": "The key turns. You climb the stairs into the hallway."
+        }
+      ]
+    },
+    {
+      "id": "hallway",
+      "name": "Hallway",
+      "description": "A narrow hallway with a phone table. A rotary phone sits beside an answering machine with a blinking light. Grandpa's pager is clipped to the table's edge. A scrap of paper by the phone reads TELL MOM: NOT MY JACKET. A snapshot of young Dad in a jacket with the collar popped hangs on the wall. The coat closet is slightly ajar, a sleeve showing. There is also a bowl of labeled keys, a Yellow Pages, a Rolodex, an umbrella stand, and a wall calendar stuck on a month in 1987.",
+      "puzzle": "hallway",
+      "items": ["phoneTable", "rotaryPhone", "answeringMachine", "pager", "paperScrap", "snapshot", "closet", "keyBowl", "yellowPages", "rolodex", "umbrellaStand", "wallCalendar"],
+      "exits": [
+        {
+          "direction": "down",
+          "to": "basement",
+          "lockedText": "The basement door is stuck for a moment, then gives.",
+          "passText": "You head back down to the basement."
+        },
+        {
+          "direction": "north",
+          "to": "boyhoodBedroom",
+          "requiresKey": "bedroomKey",
+          "lockedText": "The bedroom door is locked. You will need a key.",
+          "passText": "The key turns. You step into a boy's bedroom."
+        }
+      ]
+    },
+    {
+      "id": "boyhoodBedroom",
+      "name": "Dad's Boyhood Bedroom",
+      "description": "A small bedroom, preserved like a museum. An NES with one controller sits under a TV. A game cartridge rests on the shelf. A toybox has a hand-lettered lid: AUTOBOTS ONLY. DECEPTICONS KEEP OUT. On the wall, a Polaroid shows young Dad holding a big robot trailer like a trophy. A comic lies on the bed. The toybox rattles with a Cabbage Patch Kid, a Rubik's Cube, an Etch A Sketch, a one-armed action figure, a villain robot toy, and something folded and robot-shaped.",
+      "puzzle": "boyhoodBedroom",
+      "items": ["nes", "cartridge", "toybox", "polaroid", "comic"],
+      "exits": [
+        {
+          "direction": "south",
+          "to": "hallway",
+          "lockedText": "The door is stuck for a moment, then gives.",
+          "passText": "You head back to the hallway."
+        },
+        {
+          "direction": "east",
+          "to": "study",
+          "requiresKey": "studyKey",
+          "lockedText": "The door to the study is locked. You will need a key.",
+          "passText": "The key turns. You walk into a dim study."
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "name": "Study",
+      "description": "A dim study that smells of pipe smoke and dust. A hi-fi console holds a turntable with a record on the platter; its cord is nowhere to be seen. A tall bookshelf stands against the wall behind it. On the desk sit a Commodore 64, a floppy disk box, and a sticky note on the monitor: DO NOT TOUCH MY DISKS. A newspaper clipping about a backwards-messages scare, with one paragraph circled, is pinned beside it. Also here: a typewriter, a stack of vinyl, a desk lamp, a globe, and a letter opener.",
+      "puzzle": "study",
+      "items": ["hifiConsole", "turntable", "record", "bookshelf", "commodore", "diskBox", "stickyNote", "clipping", "typewriter", "vinylStack", "deskLamp", "globe", "letterOpener"],
+      "exits": [
+        {
+          "direction": "west",
+          "to": "boyhoodBedroom",
+          "lockedText": "The door is stuck for a moment, then gives.",
+          "passText": "You head back to the boyhood bedroom."
+        },
+        {
+          "direction": "north",
+          "to": "grandparentsBedroom",
+          "requiresKey": "grandparentsKey",
+          "lockedText": "The door to the grandparents' bedroom is locked. You will need a key.",
+          "passText": "The key turns. You step into a quiet bedroom."
+        }
+      ]
+    },
+    {
+      "id": "grandparentsBedroom",
+      "name": "Grandparents' Bedroom",
+      "description": "A quiet bedroom with a floral bedspread. A VCR sits under a TV, blinking 12:00. A clock radio on the nightstand is stopped at an odd time. The nightstand drawer holds a scribbled TV listing with SATURDAY circled. A shelf holds an aerobics workout tape case and a Betamax tape. Also here: a ballerina jewelry box, leg warmers, and a tie rack. The front door is just past the foot of the bed.",
+      "puzzle": "grandparentsBedroom",
+      "items": ["vcr", "bedroomTv", "clockRadio", "nightstandDrawer", "tvListing", "tapeCase", "betamaxTape", "jewelryBox", "legWarmers", "tieRack"],
+      "exits": [
+        {
+          "direction": "south",
+          "to": "study",
+          "lockedText": "The door is stuck for a moment, then gives.",
+          "passText": "You head back to the study."
+        },
+        {
+          "direction": "front door",
+          "to": "outside",
+          "requiresKey": "frontDoorKey",
+          "lockedText": "The front door is locked. You will need a key.",
+          "passText": "The key turns."
+        }
+      ]
+    },
+    {
+      "id": "outside",
+      "name": "Outside",
+      "description": "Nothing here yet. The ending takes over.",
+      "puzzle": null,
+      "items": [],
+      "exits": []
+    }
+  ]
+}

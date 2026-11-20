@@ -1,0 +1,50 @@
+{
+  "_note": "Three tiers per puzzle, vaguest first. From docs/puzzle-bible.md.",
+  "hints": [
+    {
+      "puzzle": "basement",
+      "tiers": [
+        "That tape is not going to fix itself. What would a kid in the 80s use?",
+        "A pencil. There's a coffee can of them. Try rewinding.",
+        "After the tape plays, think about where Dad said to look. Under things."
+      ],
+      "solved": "This room has given you what it had. The way on is up the stairs."
+    },
+    {
+      "puzzle": "hallway",
+      "tiers": [
+        "The beeper wants something. Who calls a beeper?",
+        "There's a phone right there. It has a dial. Use it.",
+        "Dad said he put it in his lucky jacket. Where do jackets live?"
+      ],
+      "solved": "The jacket gave up its secret. The way on is north."
+    },
+    {
+      "puzzle": "boyhoodBedroom",
+      "tiers": [
+        "That cartridge has been through a lot. What did every kid do to them?",
+        "Blow on it. Yes, really.",
+        "The title card shows you who to look for. The toybox lid agrees."
+      ],
+      "solved": "The trailer is empty now. The way on is east."
+    },
+    {
+      "puzzle": "study",
+      "tiers": [
+        "That record sounds like nonsense. What if it's not nonsense?",
+        "The clipping is circled for a reason. Try the record the other way.",
+        "After the message, who was the one thing Grandpa told Dad not to touch?"
+      ],
+      "solved": "The disk box is done. The way on is north."
+    },
+    {
+      "puzzle": "grandparentsBedroom",
+      "tiers": [
+        "The VCR is blinking at you. It wants a tape.",
+        "The picture is a mess. VCRs had a control for that.",
+        "After the video, think about what Dad did in this room. Saturday, 6 a.m."
+      ],
+      "solved": "The clock radio has done its job. There is a front door past the foot of the bed."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "_note": "Reconciled with the real parser (task 14.1). Each segment ends with the move that unlocks and enters the next room; the last segment ends at the front door and the ending.",
+  "segments": [
+    {
+      "puzzle": "basement",
+      "commands": [
+        "take pencil",
+        "take cassette",
+        "rewind cassette with pencil",
+        "take walkman",
+        "insert cassette into walkman",
+        "play walkman",
+        "search cartridge box",
+        "search under foam",
+        "take key",
+        "go up"
+      ]
+    },
+    {
+      "puzzle": "hallway",
+      "commands": [
+        "examine pager",
+        "dial 5550142",
+        "open closet",
+        "search jacket",
+        "search inside pocket",
+        "take key",
+        "go north"
+      ]
+    },
+    {
+      "puzzle": "boyhoodBedroom",
+      "commands": [
+        "take cartridge",
+        "insert cartridge",
+        "press power",
+        "blow on cartridge",
+        "insert cartridge",
+        "press power",
+        "search toybox",
+        "unfold trailer",
+        "search trailer",
+        "take study key",
+        "go east"
+      ]
+    },
+    {
+      "puzzle": "study",
+      "commands": [
+        "look behind bookshelf",
+        "plug in turntable",
+        "play record",
+        "stop record",
+        "reverse record",
+        "open disk box",
+        "take grandparents key",
+        "go north"
+      ]
+    },
+    {
+      "puzzle": "grandparentsBedroom",
+      "commands": [
+        "open tape case",
+        "insert tape",
+        "press play",
+        "adjust tracking",
+        "adjust tracking",
+        "adjust tracking",
+        "remove battery cover",
+        "take front door key",
+        "unlock door"
+      ]
+    }
+  ],
+  "expect": {
+    "warmthAtEnd": 4,
+    "inventoryContains": ["pencil"]
+  }
+}

@@ -1,0 +1,887 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Project setup": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413927524
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413935480
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794414637845
+      }
+    ],
+    "2. Content schema and loader": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413927730
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794414640120
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794416289388
+      }
+    ],
+    "3.1 Implement input normalization, verb and noun synonym tables, and two-object command parsing.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413927865
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794416291756
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794416834918
+      }
+    ],
+    "3.2 Implement unknown-input and ambiguity handling that returns an event, never throws.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413927983
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794416837165
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794417472613
+      }
+    ],
+    "3.3 Unit tests covering every verb synonym listed in the puzzle bible.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928104
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794417475130
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794418364924
+      }
+    ],
+    "4.1 Implement `GameState`, `Command`, `EngineEvent`, and the pure `step` function.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928220
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794418367766
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794418584447
+      }
+    ],
+    "4.2 Implement rooms, movement, locked doors, inventory, LOOK, EXAMINE, TAKE, DROP, SEARCH, OPEN.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928334
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794418586961
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794419082216
+      }
+    ],
+    "4.3 Add seeded variant selection (no `Math.random` inside the engine).": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928449
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794419084779
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794437375733
+      }
+    ],
+    "5. Puzzle 1: Basement": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928600
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794437378837
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794438717885
+      }
+    ],
+    "6. Puzzle 2: Hallway": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928698
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794438720423
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794440666029
+      }
+    ],
+    "7. Puzzle 3: Dad's boyhood bedroom": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928797
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794440668874
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794442905039
+      }
+    ],
+    "8. Puzzle 4: Study": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928897
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794442907693
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794443195160
+      }
+    ],
+    "9. Puzzle 5 and ending: Grandparents' bedroom": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413928997
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794443197727
+      },
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794479854528
+      },
+      {
+        "executionId": "7973ea86-8460-4725-b9f2-8fff429fd01c",
+        "chatSessionId": "sess_2153c2fe-e36c-44f3-afee-075318ba2780",
+        "timestamp": 1794480223372
+      },
+      {
+        "executionId": "7973ea86-8460-4725-b9f2-8fff429fd01c",
+        "chatSessionId": "sess_2153c2fe-e36c-44f3-afee-075318ba2780",
+        "timestamp": 1794480330890
+      }
+    ],
+    "10.1 Implement `CannedNarrator` with at least 8 variants per generic failure per warmth level.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929109
+      },
+      {
+        "executionId": "ff02de5a-cbe2-45d9-a0cb-7e20f7d0db53",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481075298
+      },
+      {
+        "executionId": "ff02de5a-cbe2-45d9-a0cb-7e20f7d0db53",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481310220
+      }
+    ],
+    "10.2 Implement warmth transitions and silence-beat handling.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929212
+      },
+      {
+        "executionId": "ff02de5a-cbe2-45d9-a0cb-7e20f7d0db53",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481310968
+      },
+      {
+        "executionId": "ff02de5a-cbe2-45d9-a0cb-7e20f7d0db53",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481412886
+      }
+    ],
+    "10.3 (Optional) Implement `LlmNarrator` with timeout, validator, and canned fallback.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929319
+      },
+      {
+        "executionId": "b1494584-eca8-4a3b-bdc8-3dc0bcc9b52e",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481523208
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481573120
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481612033
+      }
+    ],
+    "11. Hints and nudges": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929431
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481615579
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481625032
+      },
+      {
+        "executionId": "e826b997-1c04-42c2-abad-4be6b17f61e2",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481665313
+      },
+      {
+        "executionId": "3f38f35a-838f-467a-b33c-491bd156885c",
+        "chatSessionId": "sess_721b6f75-d5db-48ef-b389-8bf4a930f064",
+        "timestamp": 1794524689965
+      },
+      {
+        "executionId": "9007ad9d-d056-4eac-91e7-b55168dc4a6d",
+        "chatSessionId": "sess_38a801ba-b946-414e-af02-7a3a44e2fa23",
+        "timestamp": 1794527180082
+      },
+      {
+        "executionId": "9007ad9d-d056-4eac-91e7-b55168dc4a6d",
+        "chatSessionId": "sess_38a801ba-b946-414e-af02-7a3a44e2fa23",
+        "timestamp": 1794529389393
+      }
+    ],
+    "12. UI and presentation": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929543
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481615701
+      },
+      {
+        "executionId": "aaec6acf-c2f0-4bef-85e7-0f3cded66d8b",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794535116942
+      },
+      {
+        "executionId": "aaec6acf-c2f0-4bef-85e7-0f3cded66d8b",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794536381282
+      }
+    ],
+    "13. Audio": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929664
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481615816
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539428682
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539432959
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539543210
+      }
+    ],
+    "14.1 Write `walkthrough.test.ts` that plays the whole game and asserts the ending.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929769
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616002
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539428949
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539547059
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794566642017
+      }
+    ],
+    "14.2 Write `softlock.test.ts` that explores reachable states and asserts every one can still reach the ending.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929888
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616104
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429069
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794566646151
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794660378420
+      }
+    ],
+    "14.3 Write narration validator tests (no lyrics, no real names, no early solution reveals).": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413929994
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616212
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429220
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794660378703
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794660433678
+      }
+    ],
+    "15. Polish and submission": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930101
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616400
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429353
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794660437687
+      },
+      {
+        "executionId": "ef76e9c0-d19f-47dd-97a8-3943674950fe",
+        "chatSessionId": "sess_64e0f086-3869-4f03-8473-fb64ac7106be",
+        "timestamp": 1794668103052
+      }
+    ],
+    "16.1 Implement `src/engine/index.ts` exports required by `tools/playtest-mcp/engineAdapter.ts` (`runInput`, `candidateCommands`, `stateKey`, `isEnded`, `summarize`, `vocabulary`).": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930200
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616501
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429521
+      },
+      {
+        "executionId": "2865b9fd-59e4-40df-924c-0434b93dab86",
+        "chatSessionId": "sess_083342fc-1595-4f46-81ab-8466de556a49",
+        "timestamp": 1794689939707
+      },
+      {
+        "executionId": "2865b9fd-59e4-40df-924c-0434b93dab86",
+        "chatSessionId": "sess_083342fc-1595-4f46-81ab-8466de556a49",
+        "timestamp": 1794690041908
+      }
+    ],
+    "16.2 Run `npm install` in `tools/playtest-mcp`, enable the server in Kiro, and confirm `new_game` and `send_command` work.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930310
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616613
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429650
+      },
+      {
+        "executionId": "2865b9fd-59e4-40df-924c-0434b93dab86",
+        "chatSessionId": "sess_083342fc-1595-4f46-81ab-8466de556a49",
+        "timestamp": 1794690044176
+      }
+    ],
+    "16.3 Reconcile `content/walkthrough.json` with the real parser, then confirm `run_walkthrough` passes for each completed puzzle.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930494
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616733
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429773
+      },
+      {
+        "executionId": "19567706-e07e-4210-b100-811a4f7eed33",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794690141904
+      }
+    ],
+    "16.4 Run `find_softlocks` and `fuzz_commands`; fix every reported dead end, crash, and repetitive fallback.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930602
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616853
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539429902
+      },
+      {
+        "executionId": "c9f30cb6-8364-40a2-ad8b-c6fc7f845b11",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794690547145
+      },
+      {
+        "executionId": "34a4f6f9-d329-4770-a57d-fcfa6aa741a8",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794705971967
+      },
+      {
+        "executionId": "06d3bf9b-0ef1-4afb-89e4-3488f64b9a67",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794706051964
+      }
+    ],
+    "17.1 Run `npm install` in `tools/tts-mcp`, configure AWS credentials, and use `list_voices` to confirm the voice names in `content/voice-lines.json`.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930710
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481616967
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430006
+      },
+      {
+        "executionId": "06d3bf9b-0ef1-4afb-89e4-3488f64b9a67",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794706061113
+      },
+      {
+        "executionId": "0b81a004-0e5a-4a03-af7e-db94933f9422",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794706486492
+      },
+      {
+        "executionId": "bd8fb97a-4d66-4f78-8533-59dc505eaf2a",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708335717
+      },
+      {
+        "executionId": "bd8fb97a-4d66-4f78-8533-59dc505eaf2a",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708360961
+      }
+    ],
+    "17.2 Run `synthesize_manifest` in dry run mode, then set `TTS_DRY_RUN` to 0 and generate the audio.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930827
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617088
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430136
+      },
+      {
+        "executionId": "bd8fb97a-4d66-4f78-8533-59dc505eaf2a",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708364734
+      },
+      {
+        "executionId": "a9ce3f1c-a1dc-4359-8e1c-10118b6639de",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708567653
+      },
+      {
+        "executionId": "a9ce3f1c-a1dc-4359-8e1c-10118b6639de",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708604066
+      }
+    ],
+    "17.3 Write or record the final adult-Dad line yourself and replace the placeholder in the manifest.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413930941
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617205
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430267
+      },
+      {
+        "executionId": "45234eed-cf84-4a68-b0c5-05de17cdea3c",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708647820
+      },
+      {
+        "executionId": "45234eed-cf84-4a68-b0c5-05de17cdea3c",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708692911
+      }
+    ],
+    "17.4 Load `public/audio/voice/index.json` in the audio layer, show captions, apply per-line effects, and verify the game works with no audio files present.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413931049
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617347
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430388
+      },
+      {
+        "executionId": "45234eed-cf84-4a68-b0c5-05de17cdea3c",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794708696045
+      }
+    ],
+    "18.1 Install `vitest` and `fast-check`; make `tests/properties.test.ts` pass against the real engine (adjust the `PENCIL` item id if needed).": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413931215
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617463
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430506
+      },
+      {
+        "executionId": "731dd8cf-a933-4101-8a69-88bc606133a2",
+        "chatSessionId": "sess_3bca3b20-8717-4a42-887e-72dd82849084",
+        "timestamp": 1794795693925
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874850679
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874855898
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874976866
+      }
+    ],
+    "18.2 Implement property P7 (the ending is terminal) by reusing the walkthrough command list.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413931313
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617578
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430649
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874851011
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874979064
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794875030893
+      }
+    ],
+    "18.3 Enable `.kiro/hooks/verify-on-content-change.json` once the walkthrough, soft-lock, and property tests exist.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413931411
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617695
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430759
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874851383
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794875033241
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794944966078
+      }
+    ],
+    "18.4 Try the `playtester` and `narrator-writer` agents in the IDE agent picker; note in the write-up what each caught or prevented.": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794413931507
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481617810
+      },
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794539430893
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794874851665
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794944970374
+      },
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794962164611
+      }
+    ],
+    "3. Parser": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794418365338
+      }
+    ],
+    "4. Engine core": [
+      {
+        "executionId": "c09c8986-3643-4ff9-9ca0-7174585847bb",
+        "chatSessionId": "sess_4d40f352-8c24-4524-a8f4-6877abbe9c30",
+        "timestamp": 1794437375994
+      }
+    ],
+    "10. Narration and warmth": [
+      {
+        "executionId": "ff02de5a-cbe2-45d9-a0cb-7e20f7d0db53",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481070921
+      },
+      {
+        "executionId": "040a22be-6f90-4563-aa87-a81e7b483e39",
+        "chatSessionId": "sess_9623f06f-6d9c-4230-97b8-208628f0b244",
+        "timestamp": 1794481612218
+      }
+    ],
+    "14. Verification": [
+      {
+        "executionId": "33fd310a-b62b-4853-80b8-48c3ad96e78a",
+        "chatSessionId": "sess_9a79cecd-364c-4c76-ba4f-6c9954f42316",
+        "timestamp": 1794660433839
+      }
+    ],
+    "16. Playtest MCP server": [
+      {
+        "executionId": "06d3bf9b-0ef1-4afb-89e4-3488f64b9a67",
+        "chatSessionId": "sess_4d384469-82b4-4ab9-8931-58434801096b",
+        "timestamp": 1794706052232
+      }
+    ],
+    "18. Property-based tests, agents, and hooks": [
+      {
+        "executionId": "6a8f4bab-d4bd-450c-8da9-73838dbf6987",
+        "chatSessionId": "sess_d9a20577-1dcc-4293-b387-bddaa1c3e83a",
+        "timestamp": 1794962165007
+      }
+    ]
+  }
+}
