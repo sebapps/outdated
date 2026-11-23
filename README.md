@@ -142,7 +142,3 @@ The game was built with [Kiro](https://kiro.dev) using specs (requirements, desi
 ## Voice lines
 
 Voice lines are generated from `content/voice-lines.json` with stock text-to-speech voices. The generator is in `tools/tts-mcp` and starts in dry-run mode. The adult Dad's final line is written by the developer and is not generated. Lo-fi effects are applied at runtime in the browser, not baked into the audio files.
-
-## License
-
-No license has been chosen yet. Add one before publishing.
